@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B0872F14A9136B00D5B17A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B0872E14A9136B00D5B17A /* UIKit.framework */; };
+		52B0873114A9136B00D5B17A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B0873014A9136B00D5B17A /* Foundation.framework */; };
+		52B0873314A9136B00D5B17A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B0873214A9136B00D5B17A /* CoreGraphics.framework */; };
+		52B0873914A9136B00D5B17A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52B0873714A9136B00D5B17A /* InfoPlist.strings */; };
+		52B0873B14A9136B00D5B17A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B0873A14A9136B00D5B17A /* main.m */; };
+		52B0873F14A9136B00D5B17A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B0873E14A9136B00D5B17A /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52B0872A14A9136B00D5B17A /* Zombie Swiping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zombie Swiping.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B0872E14A9136B00D5B17A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52B0873014A9136B00D5B17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52B0873214A9136B00D5B17A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52B0873614A9136B00D5B17A /* Zombie Swiping-Info.plist */ = {isa = PBXFileReference; path = "Zombie Swiping-Info.plist"; sourceTree = "<group>"; };
+		52B0873814A9136B00D5B17A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52B0873A14A9136B00D5B17A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52B0873C14A9136B00D5B17A /* Zombie Swiping-Prefix.pch */ = {isa = PBXFileReference; path = "Zombie Swiping-Prefix.pch"; sourceTree = "<group>"; };
+		52B0873D14A9136B00D5B17A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		52B0873E14A9136B00D5B17A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B0872714A9136B00D5B17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0872F14A9136B00D5B17A /* UIKit.framework in Frameworks */,
+				52B0873114A9136B00D5B17A /* Foundation.framework in Frameworks */,
+				52B0873314A9136B00D5B17A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52B0871F14A9136B00D5B17A = {
+			isa = PBXGroup;
+			children = (
+				52B0873414A9136B00D5B17A /* Zombie Swiping */,
+				52B0872D14A9136B00D5B17A /* Frameworks */,
+				52B0872B14A9136B00D5B17A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52B0872B14A9136B00D5B17A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B0872A14A9136B00D5B17A /* Zombie Swiping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B0872D14A9136B00D5B17A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B0872E14A9136B00D5B17A /* UIKit.framework */,
+				52B0873014A9136B00D5B17A /* Foundation.framework */,
+				52B0873214A9136B00D5B17A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52B0873414A9136B00D5B17A /* Zombie Swiping */ = {
+			isa = PBXGroup;
+			children = (
+				52B0873D14A9136B00D5B17A /* AppDelegate.h */,
+				52B0873E14A9136B00D5B17A /* AppDelegate.m */,
+				52B0873514A9136B00D5B17A /* Supporting Files */,
+			);
+			path = "Zombie Swiping";
+			sourceTree = "<group>";
+		};
+		52B0873514A9136B00D5B17A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52B0873614A9136B00D5B17A /* Zombie Swiping-Info.plist */,
+				52B0873714A9136B00D5B17A /* InfoPlist.strings */,
+				52B0873A14A9136B00D5B17A /* main.m */,
+				52B0873C14A9136B00D5B17A /* Zombie Swiping-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B0872914A9136B00D5B17A /* Zombie Swiping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B0874214A9136B00D5B17A /* Build configuration list for PBXNativeTarget "Zombie Swiping" */;
+			buildPhases = (
+				52B0872614A9136B00D5B17A /* Sources */,
+				52B0872714A9136B00D5B17A /* Frameworks */,
+				52B0872814A9136B00D5B17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zombie Swiping";
+			productName = "Zombie Swiping";
+			productReference = 52B0872A14A9136B00D5B17A /* Zombie Swiping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B0872114A9136B00D5B17A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 52B0872414A9136B00D5B17A /* Build configuration list for PBXProject "Zombie Swiping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52B0871F14A9136B00D5B17A;
+			productRefGroup = 52B0872B14A9136B00D5B17A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B0872914A9136B00D5B17A /* Zombie Swiping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B0872814A9136B00D5B17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0873914A9136B00D5B17A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B0872614A9136B00D5B17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0873B14A9136B00D5B17A /* main.m in Sources */,
+				52B0873F14A9136B00D5B17A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52B0873714A9136B00D5B17A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B0873814A9136B00D5B17A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B0874014A9136B00D5B17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52B0874114A9136B00D5B17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B0874314A9136B00D5B17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Swiping/Zombie Swiping-Prefix.pch";
+				INFOPLIST_FILE = "Zombie Swiping/Zombie Swiping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52B0874414A9136B00D5B17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Swiping/Zombie Swiping-Prefix.pch";
+				INFOPLIST_FILE = "Zombie Swiping/Zombie Swiping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B0872414A9136B00D5B17A /* Build configuration list for PBXProject "Zombie Swiping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B0874014A9136B00D5B17A /* Debug */,
+				52B0874114A9136B00D5B17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B0874214A9136B00D5B17A /* Build configuration list for PBXNativeTarget "Zombie Swiping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B0874314A9136B00D5B17A /* Debug */,
+				52B0874414A9136B00D5B17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52B0872114A9136B00D5B17A /* Project object */;
+}
